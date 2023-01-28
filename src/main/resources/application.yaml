@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: spinwellness-and-yoga-backend
+  message: Spinwellness backend services works perfectly
+  datasource:
+    url: jdbc:h2:mem:testdb
+    driver-class-name: org.h2.Driver
+    username: localhost
+    password: localhost
+  jpa:
+    database: h2
+    database-platform: org.hibernate.dialect.H2Dialect
+    generate-ddl: true
+    show-sql: true
+  h2:
+    console:
+      enabled: true
